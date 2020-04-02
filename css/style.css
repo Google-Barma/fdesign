@@ -1,0 +1,35 @@
+* {
+  outline: 1px solid red;
+}
+body {
+  width: 1920px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  width: 1920px;
+  height: 735px;
+}
+/* logo */
+.logo {
+  margin-left: 50%;
+}
+
+.logo-link {
+  width: 142px;
+  height: 35px;
+  background-image: url(../img/design-logo.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+/* design-block */
+.design-block {
+  width: 780px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 51px;
+  letter-spacing: 20;
+  font-weight: bold;
+}
