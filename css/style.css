@@ -132,15 +132,25 @@ body {
 
 .facebook-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   margin-top: 71px;
 }
 
 .facebook {
-  color: 275fe0;
+  color: #275fe0;
   font-size: 17px;
+  text-decoration: none;
+  font-weight: 700;
 }
+
+/* .facebook-line {
+  width: 197px;
+  height: 1px;
+  margin-top: 5px;
+  border-bottom: 1px solid transparent;
+} */
 /* SERVICES END */
 
 /* ADVANTAGES START */
@@ -165,8 +175,8 @@ body {
 
 .numbers {
   font-size: 31px;
-  font-weight: 700;
-  color: #b7b7b7;
+  font-weight: 400;
+  color: #868686;
   /* letter-spacing: 1; */
   padding-right: 20px;
 }
@@ -179,6 +189,7 @@ body {
 
 .advantage-text {
   padding-left: 65px;
+  color: #8e8e8e;
 }
 /* ADVANTAGES END */
 
@@ -198,10 +209,13 @@ footer .logo {
 .footer-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-top: 48px;
 }
 
 .footer-text {
   padding-right: 90px;
+  color: #8e8e8e;
 }
 .footer-text:nth-child(3) {
   padding-right: 0px;
