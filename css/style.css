@@ -55,10 +55,10 @@ body {
 .main-link {
   border: 1pt solid #000;
   border-radius: 5px;
-  padding-top: 33px;
-  padding-bottom: 33px;
-  padding-left: 123px;
-  padding-right: 123px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 55px;
+  padding-right: 55px;
   margin-top: 40px;
   color: #131313;
   font-weight: 700;
@@ -70,10 +70,10 @@ body {
   border: 1pt solid #f4c32f;
   background-color: #f4c32f;
   border-radius: 5px;
-  padding-top: 33px;
-  padding-bottom: 33px;
-  padding-left: 123px;
-  padding-right: 123px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 55px;
+  padding-right: 55px;
   margin-top: 40px;
   color: #131313;
   font-weight: 700;
@@ -137,7 +137,6 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 71px;
-  border-bottom: 1px solid #abbeea;
 }
 
 .facebook {
@@ -145,6 +144,11 @@ body {
   font-size: 17px;
   text-decoration: none;
   font-weight: 700;
+  padding-bottom: 6px;
+  border-bottom: 1px solid transparent;
+}
+.facebook:hover {
+  border-bottom: 1px solid #abbeea;
 }
 /* SERVICES END */
 
