@@ -7,6 +7,9 @@ body {
   height: 2354px;
   font-family: Tahoma, sans-serif;
 }
+
+img {
+}
 /* logotype */
 .logo {
   display: flex;
@@ -178,6 +181,7 @@ body {
   color: #868686;
   /* letter-spacing: 1; */
   padding-right: 20px;
+  vertical-align: sub;
 }
 
 .advantages-list-text {
