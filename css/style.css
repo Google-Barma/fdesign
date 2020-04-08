@@ -129,7 +129,7 @@ img {
 .service-list img:hover {
   background-color: #fff;
   border: solid 3px #f4c634;
-  border-radius: 3px;
+  border-radius: 2px;
   box-sizing: border-box;
 }
 
