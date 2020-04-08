@@ -125,6 +125,14 @@ img {
 .service-list {
   margin-right: 45px;
 }
+
+.service-list img:hover {
+  background-color: #fff;
+  border: solid 3px #f4c634;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
 .service-list:nth-child(3) {
   margin-right: 0;
 }
