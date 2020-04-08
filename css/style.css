@@ -129,6 +129,7 @@ body {
   border: solid 3px #f4c634;
   border-radius: 2px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .service-list:nth-child(3) {
