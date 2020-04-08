@@ -1,15 +1,13 @@
 /* * {
-    outline: 1px red solid;
+  outline: 1px red solid;
 } */
 
 body {
-  width: 1920px;
-  height: 2354px;
+  max-width: 1230px;
+  margin: 0 auto;
   font-family: Tahoma, sans-serif;
 }
 
-img {
-}
 /* logotype */
 .logo {
   display: flex;
@@ -92,7 +90,7 @@ img {
 .services {
   background-color: #efefef;
   margin-top: 206px;
-  width: 1920px;
+  /* width: 1920px; */
   height: 867px;
 }
 
@@ -165,7 +163,7 @@ img {
 
 /* ADVANTAGES START */
 .advantages {
-  width: 1920px;
+  /* width: 1920px; */
   height: 620px;
 }
 .advantage-container {
@@ -208,7 +206,7 @@ img {
 .footer {
   background-color: #efefef;
   margin-top: 18px;
-  width: 1920px;
+  /* width: 1920px; */
   height: 132px;
 }
 
